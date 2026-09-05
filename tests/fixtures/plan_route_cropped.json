@@ -1,0 +1,1435 @@
+{
+  "type": "tour_planned",
+  "path": [
+    {
+      "location": {
+        "lat": 47.557026,
+        "lng": 10.020393,
+        "alt": 788.7
+      },
+      "index": 0
+    },
+    {
+      "location": {
+        "lat": 47.54461,
+        "lng": 10.104413,
+        "alt": 1001
+      },
+      "index": 267
+    },
+    {
+      "location": {
+        "lat": 47.557026,
+        "lng": 10.020393,
+        "alt": 788.7
+      },
+      "index": 512
+    }
+  ],
+  "segments": [
+    {
+      "type": "Routed",
+      "from": 0,
+      "to": 267
+    },
+    {
+      "type": "Routed",
+      "from": 267,
+      "to": 512
+    }
+  ],
+  "distance": 19197.414956957684,
+  "duration": 5854.587425783299,
+  "elevation_up": 396.79861920774795,
+  "elevation_down": 396.7986192077482,
+  "query": "d06AtWpogCY5ik=FyeABKkGk-ANb5jCAAA=",
+  "tour_information": [
+    {
+      "type": "STEEP_UPHILL",
+      "segments": [
+        {
+          "from": 221,
+          "to": 243
+        }
+      ]
+    },
+    {
+      "type": "CONSERVATION_AREA",
+      "segments": [
+        {
+          "from": 203,
+          "to": 331,
+          "extra": {
+            "protect_class": "5",
+            "name": "Naturpark Nagelfluhkette",
+            "website": "https://nagelfluhkette.info/"
+          }
+        }
+      ]
+    }
+  ],
+  "difficulty": {
+    "grade": "MODERATE",
+    "explanation_technical": "dm#t1",
+    "explanation_fitness": "d#c2"
+  },
+  "summary": {
+    "surfaces": [
+      {
+        "type": "sm#nature",
+        "amount": 0.024133364
+      },
+      {
+        "type": "sm#paved",
+        "amount": 0.036940366
+      },
+      {
+        "type": "sm#unknown",
+        "amount": 0.041249983
+      },
+      {
+        "type": "sm#unpaved",
+        "amount": 0.088681616
+      },
+      {
+        "type": "sm#gravel",
+        "amount": 0.3614712
+      },
+      {
+        "type": "sm#asphalt",
+        "amount": 0.44752344
+      }
+    ],
+    "way_types": [
+      {
+        "type": "wt#street",
+        "amount": 0.0449778
+      },
+      {
+        "type": "wt#trail",
+        "amount": 0.13514392
+      },
+      {
+        "type": "wt#minor_road",
+        "amount": 0.20622508
+      },
+      {
+        "type": "wt#cycleway",
+        "amount": 0.22844388
+      },
+      {
+        "type": "wt#way",
+        "amount": 0.38520932
+      }
+    ]
+  },
+  "date": "2026-09-03T16:32:47.599Z",
+  "sport": "mtb",
+  "source": "{\"api\":\"de.komoot.routing-api\",\"version\":[0,20260829,\"9.4.14\"]}",
+  "constitution": 3,
+  "_embedded": {
+    "coordinates": {
+      "items": [
+        {
+          "lat": 47.557026,
+          "lng": 10.020393,
+          "alt": 789.6,
+          "t": 0
+        },
+        {
+          "lat": 47.557238,
+          "lng": 10.020239,
+          "alt": 789.9,
+          "t": 7329
+        },
+        {
+          "lat": 47.556992,
+          "lng": 10.021309,
+          "alt": 790,
+          "t": 27212
+        },
+        {
+          "lat": 47.556456,
+          "lng": 10.021118,
+          "alt": 790,
+          "t": 37881
+        },
+        {
+          "lat": 47.556348,
+          "lng": 10.021095,
+          "alt": 790,
+          "t": 39927
+        },
+        {
+          "lat": 47.556261,
+          "lng": 10.021116,
+          "alt": 790,
+          "t": 41488
+        },
+        {
+          "lat": 47.556172,
+          "lng": 10.021314,
+          "alt": 789.8,
+          "t": 44202
+        },
+        {
+          "lat": 47.555979,
+          "lng": 10.021919,
+          "alt": 789,
+          "t": 51324
+        },
+        {
+          "lat": 47.555843,
+          "lng": 10.022508,
+          "alt": 788.7,
+          "t": 58622
+        },
+        {
+          "lat": 47.555685,
+          "lng": 10.023002,
+          "alt": 788.7,
+          "t": 65659
+        },
+        {
+          "lat": 47.555589,
+          "lng": 10.023155,
+          "alt": 788.7,
+          "t": 68375
+        },
+        {
+          "lat": 47.555608,
+          "lng": 10.023188,
+          "alt": 788.7,
+          "t": 69008
+        },
+        {
+          "lat": 47.555666,
+          "lng": 10.023279,
+          "alt": 788.7,
+          "t": 70649
+        },
+        {
+          "lat": 47.555723,
+          "lng": 10.02337,
+          "alt": 788.7,
+          "t": 72245
+        },
+        {
+          "lat": 47.556411,
+          "lng": 10.024464,
+          "alt": 788.7,
+          "t": 91452
+        },
+        {
+          "lat": 47.556947,
+          "lng": 10.025305,
+          "alt": 789.1,
+          "t": 108604
+        },
+        {
+          "lat": 47.557291,
+          "lng": 10.025667,
+          "alt": 789.5,
+          "t": 118821
+        },
+        {
+          "lat": 47.557355,
+          "lng": 10.025745,
+          "alt": 789.6,
+          "t": 120745
+        },
+        {
+          "lat": 47.557489,
+          "lng": 10.02589,
+          "alt": 789.8,
+          "t": 124802
+        },
+        {
+          "lat": 47.557884,
+          "lng": 10.026395,
+          "alt": 790.4,
+          "t": 138161
+        },
+        {
+          "lat": 47.557884,
+          "lng": 10.026395,
+          "alt": 790.4,
+          "t": 5722643
+        },
+        {
+          "lat": 47.557489,
+          "lng": 10.02589,
+          "alt": 789.8,
+          "t": 5731207
+        },
+        {
+          "lat": 47.557355,
+          "lng": 10.025745,
+          "alt": 789.6,
+          "t": 5733994
+        },
+        {
+          "lat": 47.557291,
+          "lng": 10.025667,
+          "alt": 789.5,
+          "t": 5735418
+        },
+        {
+          "lat": 47.556947,
+          "lng": 10.025305,
+          "alt": 789.1,
+          "t": 5742539
+        },
+        {
+          "lat": 47.556411,
+          "lng": 10.024464,
+          "alt": 788.7,
+          "t": 5756383
+        },
+        {
+          "lat": 47.555723,
+          "lng": 10.02337,
+          "alt": 788.7,
+          "t": 5776000
+        },
+        {
+          "lat": 47.555666,
+          "lng": 10.023279,
+          "alt": 788.7,
+          "t": 5777613
+        },
+        {
+          "lat": 47.555608,
+          "lng": 10.023188,
+          "alt": 788.7,
+          "t": 5779204
+        },
+        {
+          "lat": 47.555589,
+          "lng": 10.023155,
+          "alt": 788.7,
+          "t": 5779784
+        },
+        {
+          "lat": 47.555685,
+          "lng": 10.023002,
+          "alt": 788.7,
+          "t": 5782480
+        },
+        {
+          "lat": 47.555843,
+          "lng": 10.022508,
+          "alt": 788.7,
+          "t": 5789609
+        },
+        {
+          "lat": 47.555979,
+          "lng": 10.021919,
+          "alt": 789,
+          "t": 5799206
+        },
+        {
+          "lat": 47.556172,
+          "lng": 10.021314,
+          "alt": 789.8,
+          "t": 5811853
+        },
+        {
+          "lat": 47.556261,
+          "lng": 10.021116,
+          "alt": 790,
+          "t": 5815716
+        },
+        {
+          "lat": 47.556348,
+          "lng": 10.021095,
+          "alt": 790,
+          "t": 5817606
+        },
+        {
+          "lat": 47.556456,
+          "lng": 10.021118,
+          "alt": 790,
+          "t": 5819818
+        },
+        {
+          "lat": 47.556992,
+          "lng": 10.021309,
+          "alt": 790,
+          "t": 5830321
+        },
+        {
+          "lat": 47.557238,
+          "lng": 10.020239,
+          "alt": 789.9,
+          "t": 5849259
+        },
+        {
+          "lat": 47.557026,
+          "lng": 10.020393,
+          "alt": 789.6,
+          "t": 5854587
+        }
+      ],
+      "total": 40
+    },
+    "way_types": {
+      "items": [
+        {
+          "from": 0,
+          "to": 20,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 20,
+          "to": 23,
+          "element": "wt#trail_d2"
+        },
+        {
+          "from": 23,
+          "to": 47,
+          "element": "wt#cycleway"
+        },
+        {
+          "from": 47,
+          "to": 52,
+          "element": "wt#street"
+        },
+        {
+          "from": 52,
+          "to": 72,
+          "element": "wt#cycleway"
+        },
+        {
+          "from": 72,
+          "to": 74,
+          "element": "wt#way"
+        },
+        {
+          "from": 74,
+          "to": 103,
+          "element": "wt#trail_d1"
+        },
+        {
+          "from": 103,
+          "to": 104,
+          "element": "wt#trail_d2"
+        },
+        {
+          "from": 104,
+          "to": 110,
+          "element": "wt#way"
+        },
+        {
+          "from": 110,
+          "to": 111,
+          "element": "wt#trail_d2"
+        },
+        {
+          "from": 111,
+          "to": 125,
+          "element": "wt#way"
+        },
+        {
+          "from": 125,
+          "to": 128,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 128,
+          "to": 136,
+          "element": "wt#way"
+        },
+        {
+          "from": 136,
+          "to": 148,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 148,
+          "to": 156,
+          "element": "wt#trail_d1"
+        },
+        {
+          "from": 156,
+          "to": 162,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 162,
+          "to": 166,
+          "element": "wt#street"
+        },
+        {
+          "from": 166,
+          "to": 172,
+          "element": "wt#cycleway"
+        },
+        {
+          "from": 172,
+          "to": 179,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 179,
+          "to": 180,
+          "element": "wt#street"
+        },
+        {
+          "from": 180,
+          "to": 184,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 184,
+          "to": 191,
+          "element": "wt#way"
+        },
+        {
+          "from": 191,
+          "to": 200,
+          "element": "wt#trail_d2"
+        },
+        {
+          "from": 200,
+          "to": 203,
+          "element": "wt#street"
+        },
+        {
+          "from": 203,
+          "to": 331,
+          "element": "wt#way"
+        },
+        {
+          "from": 331,
+          "to": 334,
+          "element": "wt#street"
+        },
+        {
+          "from": 334,
+          "to": 343,
+          "element": "wt#trail_d2"
+        },
+        {
+          "from": 343,
+          "to": 350,
+          "element": "wt#way"
+        },
+        {
+          "from": 350,
+          "to": 354,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 354,
+          "to": 355,
+          "element": "wt#street"
+        },
+        {
+          "from": 355,
+          "to": 362,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 362,
+          "to": 368,
+          "element": "wt#cycleway"
+        },
+        {
+          "from": 368,
+          "to": 372,
+          "element": "wt#street"
+        },
+        {
+          "from": 372,
+          "to": 378,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 378,
+          "to": 386,
+          "element": "wt#trail_d1"
+        },
+        {
+          "from": 386,
+          "to": 398,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 398,
+          "to": 406,
+          "element": "wt#way"
+        },
+        {
+          "from": 406,
+          "to": 409,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 409,
+          "to": 420,
+          "element": "wt#way"
+        },
+        {
+          "from": 420,
+          "to": 425,
+          "element": "wt#minor_road"
+        },
+        {
+          "from": 425,
+          "to": 460,
+          "element": "wt#cycleway"
+        },
+        {
+          "from": 460,
+          "to": 465,
+          "element": "wt#street"
+        },
+        {
+          "from": 465,
+          "to": 489,
+          "element": "wt#cycleway"
+        },
+        {
+          "from": 489,
+          "to": 492,
+          "element": "wt#trail_d2"
+        },
+        {
+          "from": 492,
+          "to": 512,
+          "element": "wt#minor_road"
+        }
+      ]
+    },
+    "surfaces": {
+      "items": [
+        {
+          "from": 2,
+          "to": 10,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "element": "sm#paved"
+        },
+        {
+          "from": 11,
+          "to": 72,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 72,
+          "to": 74,
+          "element": "sm#gravel"
+        },
+        {
+          "from": 74,
+          "to": 103,
+          "element": "sm#compacted"
+        },
+        {
+          "from": 103,
+          "to": 104,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 104,
+          "to": 110,
+          "element": "sm#compacted"
+        },
+        {
+          "from": 110,
+          "to": 111,
+          "element": "sm#paved"
+        },
+        {
+          "from": 111,
+          "to": 117,
+          "element": "sm#unpaved"
+        },
+        {
+          "from": 117,
+          "to": 122,
+          "element": "sm#paved"
+        },
+        {
+          "from": 122,
+          "to": 124,
+          "element": "sm#unpaved"
+        },
+        {
+          "from": 124,
+          "to": 132,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 132,
+          "to": 136,
+          "element": "sm#gravel"
+        },
+        {
+          "from": 136,
+          "to": 148,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 148,
+          "to": 156,
+          "element": "sm#unpaved"
+        },
+        {
+          "from": 159,
+          "to": 174,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 174,
+          "to": 176,
+          "element": "sm#paved"
+        },
+        {
+          "from": 176,
+          "to": 184,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 184,
+          "to": 191,
+          "element": "sm#gravel"
+        },
+        {
+          "from": 191,
+          "to": 192,
+          "element": "sm#wood"
+        },
+        {
+          "from": 192,
+          "to": 195,
+          "element": "sm#ground"
+        },
+        {
+          "from": 195,
+          "to": 196,
+          "element": "sm#wood"
+        },
+        {
+          "from": 196,
+          "to": 200,
+          "element": "sm#ground"
+        },
+        {
+          "from": 200,
+          "to": 203,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 203,
+          "to": 331,
+          "element": "sm#gravel"
+        },
+        {
+          "from": 331,
+          "to": 334,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 334,
+          "to": 338,
+          "element": "sm#ground"
+        },
+        {
+          "from": 338,
+          "to": 339,
+          "element": "sm#wood"
+        },
+        {
+          "from": 339,
+          "to": 342,
+          "element": "sm#ground"
+        },
+        {
+          "from": 342,
+          "to": 343,
+          "element": "sm#wood"
+        },
+        {
+          "from": 343,
+          "to": 350,
+          "element": "sm#gravel"
+        },
+        {
+          "from": 350,
+          "to": 358,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 358,
+          "to": 360,
+          "element": "sm#paved"
+        },
+        {
+          "from": 360,
+          "to": 375,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 378,
+          "to": 386,
+          "element": "sm#unpaved"
+        },
+        {
+          "from": 386,
+          "to": 398,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 398,
+          "to": 402,
+          "element": "sm#gravel"
+        },
+        {
+          "from": 402,
+          "to": 410,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 410,
+          "to": 412,
+          "element": "sm#unpaved"
+        },
+        {
+          "from": 412,
+          "to": 417,
+          "element": "sm#paved"
+        },
+        {
+          "from": 417,
+          "to": 419,
+          "element": "sm#unpaved"
+        },
+        {
+          "from": 419,
+          "to": 420,
+          "element": "sm#compacted"
+        },
+        {
+          "from": 425,
+          "to": 501,
+          "element": "sm#asphalt"
+        },
+        {
+          "from": 501,
+          "to": 502,
+          "element": "sm#paved"
+        },
+        {
+          "from": 502,
+          "to": 510,
+          "element": "sm#asphalt"
+        }
+      ]
+    },
+    "directions": {
+      "items": [
+        {
+          "index": 0,
+          "cardinal_direction": "NW",
+          "change_way": false,
+          "complex": false,
+          "distance": 111,
+          "last_similar": 0,
+          "street_name": "Am Sandb\u00fchl",
+          "type": "S",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 2,
+          "cardinal_direction": "S",
+          "change_way": false,
+          "complex": false,
+          "distance": 254,
+          "last_similar": 0,
+          "street_name": "Am Sandb\u00fchl",
+          "type": "TR",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 10,
+          "cardinal_direction": "NE",
+          "change_way": true,
+          "complex": false,
+          "distance": 369,
+          "last_similar": 8,
+          "street_name": "Kalzhofer Stra\u00dfe",
+          "type": "TL",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 20,
+          "cardinal_direction": "N",
+          "change_way": true,
+          "complex": false,
+          "distance": 23,
+          "last_similar": 16,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#trail_d2"
+        },
+        {
+          "index": 23,
+          "cardinal_direction": "E",
+          "change_way": false,
+          "complex": false,
+          "distance": 847,
+          "last_similar": 22,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#cycleway"
+        },
+        {
+          "index": 47,
+          "cardinal_direction": "SE",
+          "change_way": true,
+          "complex": false,
+          "distance": 101,
+          "last_similar": 45,
+          "street_name": "Klosterstra\u00dfe, St 2005",
+          "type": "TFR",
+          "way_type": "wt#street"
+        },
+        {
+          "index": 52,
+          "cardinal_direction": "SE",
+          "change_way": true,
+          "complex": false,
+          "distance": 389,
+          "last_similar": 51,
+          "street_name": "",
+          "type": "TFR",
+          "way_type": "wt#cycleway"
+        },
+        {
+          "index": 64,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 266,
+          "last_similar": 63,
+          "street_name": "",
+          "type": "TSR",
+          "way_type": "wt#cycleway"
+        },
+        {
+          "index": 72,
+          "cardinal_direction": "E",
+          "change_way": false,
+          "complex": false,
+          "distance": 1219,
+          "last_similar": 64,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 104,
+          "cardinal_direction": "E",
+          "change_way": true,
+          "complex": false,
+          "distance": 143,
+          "last_similar": 72,
+          "street_name": "R 14",
+          "type": "TFL",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 107,
+          "cardinal_direction": "NE",
+          "change_way": true,
+          "complex": false,
+          "distance": 960,
+          "last_similar": 104,
+          "street_name": "",
+          "type": "TLL",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 125,
+          "cardinal_direction": "NE",
+          "change_way": false,
+          "complex": false,
+          "distance": 100,
+          "last_similar": 107,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 128,
+          "cardinal_direction": "SE",
+          "change_way": false,
+          "complex": false,
+          "distance": 867,
+          "last_similar": 125,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 148,
+          "cardinal_direction": "E",
+          "change_way": false,
+          "complex": false,
+          "distance": 669,
+          "last_similar": 128,
+          "street_name": "",
+          "type": "TS",
+          "way_type": "wt#trail_d1"
+        },
+        {
+          "index": 160,
+          "cardinal_direction": "SE",
+          "change_way": false,
+          "complex": false,
+          "distance": 63,
+          "last_similar": 148,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 162,
+          "cardinal_direction": "E",
+          "change_way": false,
+          "complex": false,
+          "distance": 289,
+          "last_similar": 160,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#street"
+        },
+        {
+          "index": 166,
+          "cardinal_direction": "S",
+          "change_way": false,
+          "complex": false,
+          "distance": 220,
+          "last_similar": 162,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#cycleway"
+        },
+        {
+          "index": 172,
+          "cardinal_direction": "E",
+          "change_way": true,
+          "complex": false,
+          "distance": 116,
+          "last_similar": 166,
+          "street_name": "Im Weidach",
+          "type": "TL",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 179,
+          "cardinal_direction": "SE",
+          "change_way": true,
+          "complex": false,
+          "distance": 10,
+          "last_similar": 177,
+          "street_name": "",
+          "type": "TLR",
+          "way_type": "wt#street"
+        },
+        {
+          "index": 180,
+          "cardinal_direction": "SE",
+          "change_way": true,
+          "complex": false,
+          "distance": 137,
+          "last_similar": 179,
+          "street_name": "Kirchdorfer Stra\u00dfe",
+          "type": "TLR",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 184,
+          "cardinal_direction": "E",
+          "change_way": true,
+          "complex": false,
+          "distance": 760,
+          "last_similar": 180,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 194,
+          "cardinal_direction": "SE",
+          "change_way": false,
+          "complex": false,
+          "distance": 166,
+          "last_similar": 184,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#trail_d2"
+        },
+        {
+          "index": 200,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 29,
+          "last_similar": 194,
+          "street_name": "",
+          "type": "TSR",
+          "way_type": "wt#street"
+        },
+        {
+          "index": 203,
+          "cardinal_direction": "E",
+          "change_way": false,
+          "complex": false,
+          "distance": 16,
+          "last_similar": 200,
+          "street_name": "",
+          "type": "TSL",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 205,
+          "cardinal_direction": "S",
+          "change_way": false,
+          "complex": false,
+          "distance": 185,
+          "last_similar": 204,
+          "street_name": "",
+          "type": "TFR",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 209,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 626,
+          "last_similar": 205,
+          "street_name": "",
+          "type": "TFR",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 224,
+          "cardinal_direction": "S",
+          "change_way": false,
+          "complex": false,
+          "distance": 926,
+          "last_similar": 221,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 267,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 839,
+          "last_similar": 224,
+          "street_name": "",
+          "type": "TU",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 304,
+          "cardinal_direction": "N",
+          "change_way": false,
+          "complex": false,
+          "distance": 87,
+          "last_similar": 291,
+          "street_name": "",
+          "type": "TFR",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 310,
+          "cardinal_direction": "NW",
+          "change_way": false,
+          "complex": false,
+          "distance": 812,
+          "last_similar": 306,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 329,
+          "cardinal_direction": "NW",
+          "change_way": false,
+          "complex": false,
+          "distance": 16,
+          "last_similar": 310,
+          "street_name": "",
+          "type": "TLL",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 331,
+          "cardinal_direction": "E",
+          "change_way": false,
+          "complex": false,
+          "distance": 29,
+          "last_similar": 329,
+          "street_name": "",
+          "type": "TSR",
+          "way_type": "wt#street"
+        },
+        {
+          "index": 334,
+          "cardinal_direction": "NW",
+          "change_way": false,
+          "complex": false,
+          "distance": 166,
+          "last_similar": 331,
+          "street_name": "",
+          "type": "TSL",
+          "way_type": "wt#trail_d2"
+        },
+        {
+          "index": 340,
+          "cardinal_direction": "SW",
+          "change_way": false,
+          "complex": false,
+          "distance": 760,
+          "last_similar": 334,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#trail_d2"
+        },
+        {
+          "index": 350,
+          "cardinal_direction": "N",
+          "change_way": true,
+          "complex": false,
+          "distance": 137,
+          "last_similar": 340,
+          "street_name": "Kirchdorfer Stra\u00dfe",
+          "type": "TR",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 354,
+          "cardinal_direction": "NW",
+          "change_way": true,
+          "complex": false,
+          "distance": 10,
+          "last_similar": 350,
+          "street_name": "",
+          "type": "TFL",
+          "way_type": "wt#street"
+        },
+        {
+          "index": 355,
+          "cardinal_direction": "W",
+          "change_way": true,
+          "complex": false,
+          "distance": 17,
+          "last_similar": 354,
+          "street_name": "Im Weidach",
+          "type": "TLL",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 357,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 99,
+          "last_similar": 356,
+          "street_name": "Im Weidach",
+          "type": "TFR",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 362,
+          "cardinal_direction": "NW",
+          "change_way": true,
+          "complex": false,
+          "distance": 220,
+          "last_similar": 360,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#cycleway"
+        },
+        {
+          "index": 368,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 289,
+          "last_similar": 362,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#street"
+        },
+        {
+          "index": 372,
+          "cardinal_direction": "N",
+          "change_way": false,
+          "complex": false,
+          "distance": 63,
+          "last_similar": 368,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 374,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 8,
+          "last_similar": 372,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 375,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 660,
+          "last_similar": 374,
+          "street_name": "",
+          "type": "TFL",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 386,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 867,
+          "last_similar": 375,
+          "street_name": "",
+          "type": "TS",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 406,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 100,
+          "last_similar": 386,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 409,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 618,
+          "last_similar": 406,
+          "street_name": "",
+          "type": "TFR",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 419,
+          "cardinal_direction": "SW",
+          "change_way": false,
+          "complex": false,
+          "distance": 221,
+          "last_similar": 409,
+          "street_name": "",
+          "type": "TFR",
+          "way_type": "wt#way"
+        },
+        {
+          "index": 425,
+          "cardinal_direction": "NW",
+          "change_way": false,
+          "complex": false,
+          "distance": 1592,
+          "last_similar": 419,
+          "street_name": "",
+          "type": "TR",
+          "way_type": "wt#cycleway"
+        },
+        {
+          "index": 460,
+          "cardinal_direction": "NW",
+          "change_way": true,
+          "complex": false,
+          "distance": 101,
+          "last_similar": 449,
+          "street_name": "Klosterstra\u00dfe, St 2005",
+          "type": "TLL",
+          "way_type": "wt#street"
+        },
+        {
+          "index": 465,
+          "cardinal_direction": "W",
+          "change_way": true,
+          "complex": false,
+          "distance": 847,
+          "last_similar": 461,
+          "street_name": "",
+          "type": "TFL",
+          "way_type": "wt#cycleway"
+        },
+        {
+          "index": 489,
+          "cardinal_direction": "SW",
+          "change_way": false,
+          "complex": false,
+          "distance": 23,
+          "last_similar": 487,
+          "street_name": "",
+          "type": "TL",
+          "way_type": "wt#trail_d2"
+        },
+        {
+          "index": 492,
+          "cardinal_direction": "SW",
+          "change_way": true,
+          "complex": false,
+          "distance": 369,
+          "last_similar": 490,
+          "street_name": "Kalzhofer Stra\u00dfe",
+          "type": "TR",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 502,
+          "cardinal_direction": "NW",
+          "change_way": true,
+          "complex": false,
+          "distance": 254,
+          "last_similar": 497,
+          "street_name": "Am Sandb\u00fchl",
+          "type": "TR",
+          "way_type": "wt#minor_road"
+        },
+        {
+          "index": 510,
+          "cardinal_direction": "W",
+          "change_way": false,
+          "complex": false,
+          "distance": 111,
+          "last_similar": 502,
+          "street_name": "Am Sandb\u00fchl",
+          "type": "TL",
+          "way_type": "wt#minor_road"
+        }
+      ]
+    }
+  },
+  "result_status": "NoPreviousTourToCheck",
+  "routing_version": "9.4.14-20260829"
+}
