@@ -2,32 +2,50 @@
 
 MCP server for [Komoot](https://www.komoot.com/) — the most comprehensive Komoot API wrapper available. Tours, highlights, route planning, exports, and more.
 
-Built with Python + [FastMCP](https://github.com/jlowin/fastmcp). Combines capabilities from [kompy](https://github.com/Tsadoq/kompy), [KomootGPX](https://github.com/timschneeb/KomootGPX), [komPYoot](https://pypi.org/project/komPYoot/), and [export-komoot](https://github.com/pieterclaerhout/export-komoot) into a single MCP server.
+Built with Python + [FastMCP](https://github.com/jlowin/fastmcp). Combines capabilities from [kompy](https://github.com/Tsadoq/kompy), [KomootGPX](https://github.com/timschneeb/KomootGPX), [komPYoot](https://pypi.org/project/komPYoot/), [export-komoot](https://github.com/pieterclaerhout/export-komoot), [Eric-AI-M/komoot-mcp-server](https://github.com/Eric-AI-M/komoot-mcp-server) and [Filip-Kin/komoot-mcp](https://github.com/Filip-Kin/komoot-mcp) into a single MCP server.
 
 ## Features
 
 ### Tours
-- **List tours** — filter by type (planned/recorded), sport, status, name, with sorting and pagination
-- **Get tour detail** — distance, elevation, duration, sport, difficulty, surfaces
-- **Update tour** — rename, change sport type, change visibility
+- **List tours** — filter by type (planned/recorded), sport, visibility, name, date range, with sorting and pagination
+- **Get tour detail** — distance, elevation, duration, sport, difficulty, surfaces (also via share token)
+- **Get full tour** — metadata, surfaces, way types, directions, participants, timeline highlights and photos in one call
+- **Update tour** — name, sport, visibility, description
 - **Delete tour**
 
 ### Exports
-- **Download GPX** — full GPS trace
-- **Download FIT** — Garmin/ANT+ format
+- **Download GPX** — full GPS trace, inline or saved to a file
+- **Download FIT** — Garmin/ANT+ format (planned tours only), saved to a file
+- **Export all tours** — bulk backup to a folder, skipping files already present
 
 ### Upload
-- **Upload tour** — import GPX as recorded activity
+- **Upload tour** — GPX text, or a local `.gpx` / `.fit` / `.tcx` file; sets sport, name and visibility; flags duplicates
+
+### Route planning & geocoding
+- **Plan route** — Komoot route planner between waypoints (fitness level, round trip)
+- **Plan and save tour** — plan and save as a planned tour in one call (no GPX round-trip through the chat)
+- **Import GPX route** / **Create planned tour** — match an external GPX on Komoot's network and save it
+- **Tour line** — lightweight simplified geometry
+- **Geocode / reverse geocode** — place name ↔ coordinates via Komoot's Photon service
+
+### Discovery
+- **Find Smart Tours** — Komoot's suggested routes around a point, filterable by route attributes (forests, lakes, mountain huts…) or by a highlight they pass through
+- **List route attributes** — attributes available around a point
+- **Smart Tour detail / GPX**
+- **Discover near** — editorial collections around a point
+- **Collections** — collection metadata and its tours
 
 ### Highlights
-- **Get highlight** — community points of interest
-- **Get highlight tips** — community tips for a highlight
-- **Get tour images** — photos attached to a tour
+- **Get highlight** — community points of interest, optionally with tips and recommenders
+- **Highlight tips / photos** — paginated
+- **Highlights nearby** — community highlights within a radius, filterable by sport
+- **User highlights** — highlights recommended by a user
+- **Bookmarks** — list, add and remove saved highlights
+- **Tour images** — photos attached to a tour
 
-### Route planning
-- **Import GPX route** — import and match to Komoot routing network
-- **Plan route** — create a route from waypoints (lat/lng)
-- **Create planned tour** — save a planned route as a Komoot tour
+### Sharing
+- **Create / revoke share link** for a tour
+- **Read shared tour** from a Komoot URL (with or without share token)
 
 ### Streams
 - **Coordinates** — lat, lng, altitude, timestamp sequence
@@ -36,9 +54,11 @@ Built with Python + [FastMCP](https://github.com/jlowin/fastmcp). Combines capab
 - **Directions** — turn-by-turn navigation
 
 ### Profile
-- **User profile** — name, avatar, stats, settings
+- **User profile** — full profile for yourself, public profile for another user
 
-### 18 tools total
+### 40 tools total
+
+Discovery tools return a compact summary per tour by default (`compact=False` for the raw JSON, which can reach several hundred kilobytes).
 
 ## Setup
 
@@ -77,7 +97,7 @@ uv run python -m komoot_mcp.server
 
 ## Authentication
 
-Basic Auth via Komoot's internal API (`/v006/account/email/{email}/`). Session token persisted in `~/.config/komoot-mcp/session.json` with automatic re-auth on 401.
+Basic Auth via Komoot's internal API (`/v006/account/email/{email}/`). Session token persisted in `~/.config/komoot-mcp/session.json` with automatic re-auth on 401. GET requests are retried on 429/502/503/504 with backoff (honouring `Retry-After`).
 
 > **Note:** Komoot does not have an official public API. This server uses the same undocumented v007 REST API that the web frontend and all major third-party tools use. It could break if Komoot changes their internal API.
 

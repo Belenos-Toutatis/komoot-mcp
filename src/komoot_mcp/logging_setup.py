@@ -42,6 +42,8 @@ def get_logger() -> logging.Logger:
     logger = logging.getLogger("komoot-mcp")
     level = os.environ.get("KOMOOT_MCP_LOG_LEVEL", "INFO").upper()
     logger.setLevel(getattr(logging, level, logging.INFO))
+    # Ne pas remonter au handler racine de FastMCP (sinon chaque requete est aussi ecrite sur stderr)
+    logger.propagate = False
 
     handler = RotatingFileHandler(
         log_dir / "komoot-mcp.log",
